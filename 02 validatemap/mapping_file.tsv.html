@@ -1,0 +1,52 @@
+<html>
+<head>
+
+<script type="text/javascript" src="./overlib.js"></script>
+</head>
+<body bgcolor="white"> <h1>No errors or warnings detected.<br></h1><h1>Mapping file error and warning details.</h1>
+Notes for interpreting this report:
+<ul>
+    <li>Errors will be listed in red, warnings in yellow.
+    <li>Mouse over an error or warning in a cell for more details.
+    <li>Errors in the header row may mask other errors, so these should be corrected first.
+    <li>Modifications to your mapping file to fix certain issues may result in different errors. You should run <tt>validate_mapping_file.py</tt> until no errors (nor warnings, ideally) are found.
+</ul>
+<p>
+Some general rules about formatting mapping files (see <a href="http://qiime.org/documentation/file_formats.html#metadata-mapping-files">here</a> for additional details):
+<ul>
+    <li>Header characters should only contain alphanumeric and <tt>_</tt> characters only.
+    <li>Valid characters for SampleID fields are alphanumeric and <tt>.</tt> only.<br>
+    <li>Other fields allow alphanumeric and <tt>+-%./ :,;_</tt> characters.
+</ul>
+General issues with your mapping file (i.e., those that do not pertain to a particular cell) will be listed here, if any:<table border="1" cellspacing="0" cellpadding="7"><tr></tr></table><br>
+<table border="2" cellspacing="0" cellpadding="5">
+
+<tr></tr>
+<tr>
+<th>SampleID</th><th>BarcodeSequence</th><th>LinkerPrimerSequence</th><th>ReversePrimer</th><th>soil_use</th><th>dinamic</th><th>Practice</th><th>Fertilizer</th><th>Description</th>
+</tr>
+
+<tr>
+<tr><th><tt>DNA01</tt></th><th><tt>TAAGGCGATAGATCGC</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conventional</tt></th><th><tt>amended</tt></th><th><tt>CT</tt></th><th><tt>0</tt></th><th><tt>Soil.NH4.1
+</tt></th></tr><tr><th><tt>DNA02</tt></th><th><tt>TAAGGCGACTCTCTAT</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conventional</tt></th><th><tt>amended</tt></th><th><tt>CT</tt></th><th><tt>0</tt></th><th><tt>Soil.NH4.2
+</tt></th></tr><tr><th><tt>DNA03</tt></th><th><tt>TAAGGCGATATCCTCT</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conventional</tt></th><th><tt>amended</tt></th><th><tt>CT</tt></th><th><tt>0</tt></th><th><tt>Soil.NH4.3
+</tt></th></tr><tr><th><tt>DNA04</tt></th><th><tt>TAAGGCGAAGAGTAGA</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conventional</tt></th><th><tt>amended</tt></th><th><tt>CT</tt></th><th><tt>300</tt></th><th><tt>Soil.NH4.4
+</tt></th></tr><tr><th><tt>DNA05</tt></th><th><tt>TAAGGCGAGTAAGGAG</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conventional</tt></th><th><tt>amended</tt></th><th><tt>CT</tt></th><th><tt>300</tt></th><th><tt>Soil.NH4.5
+</tt></th></tr><tr><th><tt>DNA06</tt></th><th><tt>TAAGGCGAACTGCATA</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conventional</tt></th><th><tt>amended</tt></th><th><tt>CT</tt></th><th><tt>300</tt></th><th><tt>Soil.NH4.6
+</tt></th></tr><tr><th><tt>DNA07</tt></th><th><tt>TAAGGCGAAAGGAGTA</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conservation</tt></th><th><tt>amended</tt></th><th><tt>PBB</tt></th><th><tt>0</tt></th><th><tt>Soil.NH4.7
+</tt></th></tr><tr><th><tt>DNA08</tt></th><th><tt>TAAGGCGACTAAGCCT</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conservation</tt></th><th><tt>amended</tt></th><th><tt>PBB</tt></th><th><tt>0</tt></th><th><tt>Soil.NH4.8
+</tt></th></tr><tr><th><tt>DNA09</tt></th><th><tt>CGTACTAGTAGATCGC</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conservation</tt></th><th><tt>amended</tt></th><th><tt>PBB</tt></th><th><tt>0</tt></th><th><tt>Soil.NH4.9
+</tt></th></tr><tr><th><tt>DNA10</tt></th><th><tt>CGTACTAGCTCTCTAT</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conservation</tt></th><th><tt>amended</tt></th><th><tt>PBB</tt></th><th><tt>300</tt></th><th><tt>Soil.NH4.10
+</tt></th></tr><tr><th><tt>DNA11</tt></th><th><tt>CGTACTAGTATCCTCT</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conservation</tt></th><th><tt>amended</tt></th><th><tt>PBB</tt></th><th><tt>300</tt></th><th><tt>Soil.NH4.11
+</tt></th></tr><tr><th><tt>DNA12</tt></th><th><tt>CGTACTAGAGAGTAGA</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conservation</tt></th><th><tt>amended</tt></th><th><tt>PBB</tt></th><th><tt>300</tt></th><th><tt>Soil.NH4.12
+</tt></th></tr><tr><th><tt>DNA13</tt></th><th><tt>CGTACTAGGTAAGGAG</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conservation</tt></th><th><tt>amended</tt></th><th><tt>PBC</tt></th><th><tt>0</tt></th><th><tt>Soil.NH4.13
+</tt></th></tr><tr><th><tt>DNA14</tt></th><th><tt>CGTACTAGACTGCATA</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conservation</tt></th><th><tt>amended</tt></th><th><tt>PBC</tt></th><th><tt>0</tt></th><th><tt>Soil.NH4.14
+</tt></th></tr><tr><th><tt>DNA15</tt></th><th><tt>CGTACTAGAAGGAGTA</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conservation</tt></th><th><tt>amended</tt></th><th><tt>PBC</tt></th><th><tt>0</tt></th><th><tt>Soil.NH4.15
+</tt></th></tr><tr><th><tt>DNA16</tt></th><th><tt>CGTACTAGCTAAGCCT</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conservation</tt></th><th><tt>amended</tt></th><th><tt>PBC</tt></th><th><tt>300</tt></th><th><tt>Soil.NH4.16
+</tt></th></tr><tr><th><tt>DNA17</tt></th><th><tt>TCCTGAGCTAGATCGC</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conservation</tt></th><th><tt>amended</tt></th><th><tt>PBC</tt></th><th><tt>300</tt></th><th><tt>Soil.NH4.17
+</tt></th></tr><tr><th><tt>DNA18</tt></th><th><tt>TCCTGAGCCTCTCTAT</tt></th><th><tt>CCTACGGGNGGCWGCAG</tt></th><th><tt>GACTACHVGGGTATCTAATCC</tt></th><th><tt>Conservation</tt></th><th><tt>amended</tt></th><th><tt>PBC</tt></th><th><tt>300</tt></th><th><tt>Soil.NH4.18</tt></th></tr>
+</tr>
+</table>
+
+</body>
+</html>
